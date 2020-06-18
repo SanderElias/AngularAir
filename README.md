@@ -1,4 +1,4 @@
-# AngulsrAir sample code
+# AngularAir sample code
 
 This is the code I have shown during the angularAir episode
 
