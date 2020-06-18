@@ -12,5 +12,12 @@ export const config: ScullyConfig = {
         folder: "./blogFiles"
       }
     },
+    '/authors/:id': {
+      type: 'json',
+      "id": {
+        url: 'http://localhost:8200/users',
+        property: 'id'
+      }
+    }
   }
 };
