@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|PT+Mono&display=swap');
+
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  margin: 0;
+  font-family: Comfortaa, Roboto, sans-serif;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+main >  * > p {
+  font-size: 5em;
+}
+
+main > app-blog > p { font-size: inherit;}
